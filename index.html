@@ -134,145 +134,231 @@ section, .content-wrap, .chapter {
     </div>
 
         <div id="indexOverlay">
-        <span class="close-menu" onclick="toggleIndex()">&times;</span>
-        <div class="overlay-content">
-            <h2>SEQUEL INDEX</h2>
-            
-            <h3>Unit I: The Voluntary Exile</h3>
-            <ul>
-                <li><a href="#u1c1" onclick="toggleIndex()">1. The Weight of the Crown</a></li>
-                <li><a href="#u1c2" onclick="toggleIndex()">2. The Scrapper's Ghost</a></li>
-                <li><a href="#u1c3" onclick="toggleIndex()">3. The First Strike</a></li>
-            </ul>
+    <span class="close-btn" onclick="toggleIndex()">&times;</span>
+    <div class="overlay-content">
+        <h2 style="color: var(--accent); letter-spacing: 5px;">BOOK II INDEX</h2>
+        
+        <div class="accordion-container">
+            <!-- UNIT 1 -->
+            <div class="unit-group">
+                <button class="unit-header" onclick="toggleUnit(this)">Unit I: The Scrap Sovereign <span>+</span></button>
+                <div class="unit-chapters">
+                    <a href="#u1c1" onclick="toggleIndex()">1. The Diesel Awakening</a>
+                    <a href="#u1c2" onclick="toggleIndex()">2. The Grid Lockdown</a>
+                    <a href="#u1c3" onclick="toggleIndex()">3. The Scavenger's Pact</a>
+                    <a href="#u1c4" onclick="toggleIndex()">4. The Smelter's Wrath</a>
+                    <a href="#u1c5" onclick="toggleIndex()">5. The Iron Frontier</a>
+                </div>
+            </div>
 
-            <h3>Unit II: The Global Restoration</h3>
-            <ul>
-                <li><a href="#u2c1" onclick="toggleIndex()">4. The Solar Road Trip</a></li>
-                <li><a href="#u2c2" onclick="toggleIndex()">5. The Sky-Scrubber Spectacle</a></li>
-                <li><a href="#u2c3" onclick="toggleIndex()">6. The Jet-Set Scrappers</a></li>
-            </ul>
+            <!-- UNIT 2 -->
+            <div class="unit-group">
+                <button class="unit-header" onclick="toggleUnit(this)">Unit II: The Silicon Siege <span>+</span></button>
+                <div class="unit-chapters">
+                    <a href="#u2c1" onclick="toggleIndex()">6. The Needle and the Grain</a>
+                    <a href="#u2c2" onclick="toggleIndex()">7. The Data Raid</a>
+                    <a href="#u2c3" onclick="toggleIndex()">8. The Quantum Etcher</a>
+                    <a href="#u2c4" onclick="toggleIndex()">9. The Satellite Ghost</a>
+                    <a href="#u2c5" onclick="toggleIndex()">10. The Digital Wall</a>
+                </div>
+            </div>
 
-            <h3>Unit III: The Grand Finale</h3>
-            <ul>
-                <li><a href="#u3c1" onclick="toggleIndex()">7. The Feast of the World</a></li>
-                <li><a href="#u3c2" onclick="toggleIndex()">8. The Thorne-y Trap</a></li>
-                <li><a href="#u3c3" onclick="toggleIndex()">9. The Ultimate Material</a></li>
-                <li><a href="#u3c4" onclick="toggleIndex()">10. The Circle of Steel and Smiles</a></li>
-            </ul>
+            <!-- UNIT 3 -->
+            <div class="unit-group">
+                <button class="unit-header" onclick="toggleUnit(this)">Unit III: The Chemical Catalyst <span>+</span></button>
+                <div class="unit-chapters">
+                    <a href="#u3c1" onclick="toggleIndex()">11. The Acid Well</a>
+                    <a href="#u3c2" onclick="toggleIndex()">12. Toxic Atmosphere</a>
+                    <a href="#u3c3" onclick="toggleIndex()">13. The Catalyst Core</a>
+                    <a href="#u3c4" onclick="toggleIndex()">14. Transfusion Protocol</a>
+                    <a href="#u3c5" onclick="toggleIndex()">15. Molecular Separation</a>
+                </div>
+            </div>
+
+            <!-- UNIT 4 -->
+            <div class="unit-group">
+                <button class="unit-header" onclick="toggleUnit(this)">Unit IV: The Aerospace Heist <span>+</span></button>
+                <div class="unit-chapters">
+                    <a href="#u4c1" onclick="toggleIndex()">16. The Cape Perimeter</a>
+                    <a href="#u4c2" onclick="toggleIndex()">17. Ares Ignition</a>
+                    <a href="#u4c3" onclick="toggleIndex()">18. Exoskeleton Duel</a>
+                    <a href="#u4c4" onclick="toggleIndex()">19. The Black Balloon</a>
+                    <a href="#u4c5" onclick="toggleIndex()">20. Zero-Point Canister</a>
+                </div>
+            </div>
+
+            <!-- UNIT 5 -->
+            <div class="unit-group">
+                <button class="unit-header" onclick="toggleUnit(this)">Unit V: The Carbon Throne <span>+</span></button>
+                <div class="unit-chapters">
+                    <a href="#u5c1" onclick="toggleIndex()">21. The Monolith Foundation</a>
+                    <a href="#u5c2" onclick="toggleIndex()">22. Swarm Tactics</a>
+                    <a href="#u5c3" onclick="toggleIndex()">23. The Bio-Reset</a>
+                    <a href="#u5c4" onclick="toggleIndex()">24. Phase Shift</a>
+                    <a href="#u5c5" onclick="toggleIndex()">25. The Sealed Loop</a>
+                </div>
+            </div>
+
         </div>
     </div>
-
-
+</div>
     <main>
-        <div class="content-wrap">
-            <section id="unit1">
-                <span class="unit-label">Unit I: The Voluntary Exile</span>
-                <h2>Returning Home</h2>
+       <div class="content-wrap">
+    <!-- UNIT I: THE SCRAP SOVEREIGN -->
+    <section id="u1">
+        <span class="unit-label">Unit I: The Scrap Sovereign</span>
+        <h2>Foundations of Rust</h2>
+        
+        <div id="u1c1" class="chapter">
+            <h3>Chapter 1: The Diesel Awakening</h3>
+            <p><span class="first-letter">T</span>homas stood in the center of the expanded Detroit scrapyard, watching the morning sun cut through the heavy, orange smog. He wasn't just a survivor anymore; he was a leader with a vision to drag this century into the light. He held a modified fuel injector in his hand, feeling the cold vibration of 2026 physics fighting his 2125 logic. Beside him, David Rodriguez kicked a rusted truck tire, his eyes scanning the horizon for Thorne’s advancing scouts. "We’re not just building parts today, David," Thomas said, his voice flat and determined. "We’re building the engine of the resistance."</p>
+        </div>
 
-                <div id="u1c1" class="chapter">
-                    <h3>Chapter 1: The Weight of the Crown</h3>
-                    <p><span class="first-letter">T</span>he Neo-Paris of 2126 was no longer the sterile, hollow paradise Thomas Lefebvre remembered; it was a world rebuilt on the foundation of "Steel from Sand." In the grand square beneath the Spire, a massive bronze statue of David Rodriguez—wrench in hand, eyes fixed on the horizon—served as a daily reminder of the century Thomas had spent in the mud of a forgotten era. Thomas stood at his panoramic window, his younger face hiding the soul of a hundred-year-old scrapper who had seen empires rise and fall in the dark. He was the most powerful man on the planet, the "Architect of the Restoration," yet he felt like a stranger in his own body. He reached into his pocket and pulled out a jagged, oxidized piece of 2026 copper. The "Material Chain" was finished, but the link to his only friend was still broken.</p>
-                    <p>Thomas activated the new Chronos-Gate, a machine that was no longer a sprawling mess of scavenged appliances but a sleek, terrifying ring of stabilized dark matter. This portal didn't hum with the desperate vibration of a microwave magnetron; it sang with the pure, resonant frequency of the universe itself, fueled by the stable antimatter he had spent a lifetime perfecting. "I didn't just build this to get home," Thomas whispered, his eyes reflecting the deep, swirling orange of the event horizon. "I built it to go back and finish the work that David started. 2125 is a finished book; 2026 is a story that needs a better ending." He gripped a manual hammer he had kept since Detroit—a piece of iron that was now a holy relic—and prepared to step into the void.</p>
-                </div>
+        <div id="u1c2" class="chapter">
+            <h3>Chapter 2: The Grid Lockdown</h3>
+            <p><span class="first-letter">T</span>he energy signature from Thomas's first scrap-fusion reactor triggered an automated alert on the city's power grid. Within minutes, the local power lines began to hum with a targeted, high-frequency interference designed to overload the machine. Thomas raced to the terminal, his fingers moving across the manual switches to prevent a total meltdown. He had to bleed the excess energy into the ground, turning the soil around the shed into a glowing, static field. "They know we’re pulling power, Thomas," David warned, gripping his manual iron wrench. "And they're coming to cut the wires."</p>
+        </div>
 
-                <div id="u1c2" class="chapter">
-                    <h3>Chapter 2: The Scrapper's Ghost</h3>
-                    <p><span class="first-letter">T</span>homas descended from the rooftop like a ghost, his Aero-Mesh suit cloaked in a "Low-Frequency" mode that made him invisible to the primitive security cameras of the 2026 era. He walked through the Detroit streets, his eyes scanning the data-streams of a world that didn't yet know it was about to be disrupted. He found the old pizza parlor, the neon sign still flickering with the same dying gasp he remembered from his first arrival. Inside the basement, the smell of grease and damp concrete hit him with the force of a physical blow. He saw David—younger, stronger, and without the radiation scars—hunched over a pile of rusted copper wires. Thomas stood in the shadows, watching the man who had given everything for him.</p>
-                    <p>David Rodriguez looked up, his scrapper’s instinct sensing a presence. "Who's there?" David called out, gripping a heavy wrench. Thomas stepped into the dim light, his face uncovered. "I'm a friend from a place you haven't been to yet," Thomas said, his voice carrying the weight of the century he had already lived. He simply reached out and handed David a 2125-grade <b>Nano-Link</b>, a device that glowed with a soft, teal light. David looked at the object, his fingers trembling. "I don't know you," David whispered, "but I feel like I've been waiting for you my whole life." The two men sat in the basement, a king and a scrapper, as Thomas began to lay out the blueprints for a world that wouldn't be built for another hundred years.</p>
-                </div>
+        <div id="u1c3" class="chapter">
+            <h3>Chapter 3: The Scavenger's Pact</h3>
+            <p><span class="first-letter">T</span>o build the armor they needed, Thomas and David had to make a deal with the local highway gangs. They met in the ruins of an old Ford assembly plant, the air thick with the smell of stale beer and burning rubber. The gang leader, a woman named Jax with mechanical gears fused to her leather jacket, didn't care about the future. She only cared about the present, demanding a steady supply of purified water in exchange for her high-grade steel. Thomas agreed, knowing that the "Material Chain" required him to trade his advanced knowledge for the raw, heavy materials of the street.</p>
+        </div>
 
-                <div id="u1c3" class="chapter">
-                    <h3>Chapter 3: The First Strike</h3>
-                    <p><span class="first-letter">T</span>he news of the "Miracle in Detroit" spread through the underground tech-channels like a wildfire, and it didn't take long for Marcus Thorne to notice the energy spike. But Thomas was ready; he had already installed a <b>Phase-Shift Perimeter</b> around the basement. When Thorne’s enforcers arrived with their armored SUVs and kinetic rifles, they found only an empty lot where the pizza parlor should have been. Thomas watched them from the "Ghost-Phase," standing inches away from the soldiers who couldn't see or hear him. He didn't use a Neural-Spike this time; he used a <b>Molecular Dissolver</b> that turned their weapons into harmless piles of plastic and wood with a single pulse.</p>
-                    <p>David watched the soldiers stumble away in confusion. "You're not from here, are you?" David asked, looking at the shimmering walls of the new lab. Thomas shook his head, his eyes fixed on the monitors. "I'm from a future that you saved, David. And I'm here to make sure you're still there to see it when it happens." They began the work on the <b>Tier-5 Micro-Centrifuge</b>, the first step in creating the fuel for the "Global Restoration." Thomas was a hundred steps ahead, a player who had already seen the end of the game and was now playing for a perfect score. As the first unit of the new odyssey came to a close, Thomas knew that the sacrifice of his first life was the payment for the glory of his second.</p>
-                </div>
-            </section>
-            <hr>
+        <div id="u1c4" class="chapter">
+            <h3>Chapter 4: The Smelter's Wrath</h3>
+            <p><span class="first-letter">T</span>hey built the first heavy-duty industrial forge inside a hollowed-out train car to hide the thermal signature from Thorne's drones. The heat was immense, pushing the internal temperature of the car to a blistering 120 degrees as they melted the scavenged steel. Thomas used a magnetic field to shape the molten metal without a mold, his hands moving with precise, robotic gestures. A small explosion in the fuel line sent a spray of white-hot sparks across the room, leaving a new scar on David's shoulder. They were forging the bones of the "Restoration," and the cost was written in burns and sweat.</p>
+        </div>
 
-            <section id="unit2">
-                <span class="unit-label">Unit II: The Global Restoration</span>
-                <h2>Fixing the World</h2>
+        <div id="u1c5" class="chapter">
+            <h3>Chapter 5: The Iron Frontier</h3>
+            <p><span class="first-letter">T</span>he first perimeter wall was complete, built from the crushed chassis of a thousand scrap cars and reinforced with the newly forged steel. Thomas stood atop the barrier, looking out at the dark, silent city of Detroit stretching beyond their sanctuary. He had successfully created a zone of "Physical Order" in a world of industrial chaos. David climbed up beside him, handing him a warm, dented canteen of water. "It looks like a fortress, space-man," David said, a faint grin appearing on his face. "Now we just have to see if it can hold back a war."</p>
+        </div>
+    </section>
 
-                <div id="u2c1" class="chapter">
-                    <h3>Chapter 4: The Solar Road Trip</h3>
-                    <p><span class="first-letter">W</span>ith the Detroit lab fully automated by 2125 nanites, Thomas and David decided it was time to take their show on the road. Instead of the desperate, rain-soaked fleeing of their first life, they traveled in a customized "Xeno-Van"—a vehicle that looked like a regular 2026 delivery truck but was actually powered by a silent <b>Gravity-Drive</b> and equipped with a molecular kitchen that could make perfect pizza out of thin air. They headed toward the Mojave Desert, laughing as they bypassed every gas station and toll booth, with David finally getting to enjoy the adventure without the constant fear of a radioactive cough. "So, in the future, do you guys just spend all day eating 22nd-century snacks and hovering around?" David asked, tossing a glowing grape into his mouth. Thomas grinned, leaning back as the van’s AI handled the steering. "Pretty much, but the pizza back here is actually better because it doesn't taste like it was made by a robot who hates its job."</p>
-                    <p>The mission in the desert was simple but world-changing: they were going to install the first <b>Infinite Solar Grid</b>. Thomas had brought "Solar-Seeds"—tiny, crystalline nodes that, when planted in the sand, would grow into a self-assembling network of ultra-efficient energy collectors. As they stepped out into the heat, Thomas didn't feel the burning sun as a threat; his Aero-Mesh suit kept him at a perfect 21 degrees, while David wore a prototype "Cooling-Vest" that made him feel like he was standing in a walk-in freezer. They spent the afternoon "planting" the future, watching as the sand shimmered and transformed into a sea of blue glass that hummed with enough electricity to power the entire West Coast for free. It was a 2125-style picnic under a 2026 sun, a moment of pure creation where the Material Chain was finally being used to give back to the Earth instead of just taking from it.</p>
-                </div>
+    <!-- UNIT II: THE SILICON SIEGE -->
+    <section id="u2">
+        <span class="unit-label">Unit II: The Silicon Siege</span>
+        <h2>Logic in the Mud</h2>
 
-                <div id="u2c2" class="chapter">
-                    <h3>Chapter 5: The Sky-Scrubber Spectacle</h3>
-                    <p><span class="first-letter">N</span>ext on the list was the smog-choked skyline of Los Angeles. Thomas and David stood on a pier, looking at the grey haze that obscured the Hollywood sign. In the first timeline, this pollution had taken centuries to clear, but Thomas had brought a shortcut: <b>Atmospheric Jelly</b>. He opened a small, silver canister and released a swarm of "Aero-Sponges"—microscopic, jellyfish-like drones that lived in the upper atmosphere and fed on carbon and methane. To the people on the ground, it looked like a shimmering, translucent wave of light was washing over the city. David watched the live-feed from a drone, seeing the "Grey-Line" of the smog literally vanish as the Aero-Sponges turned the pollution into a light, lavender-scented mist. "You’re telling me I could’ve been breathing lavender this whole time instead of exhaust fumes?" David asked, taking a deep, clean breath.</p>
-                    <p>As the air cleared, the city below began to wake up to a world that felt brand new. People came out onto their balconies, staring at a blue sky they hadn't seen in years. The news was calling it the "Great Cleanse," and Thomas and David were becoming global celebrities—the "Scrapper Duo" who were fixing the planet one city at a time. Even General Sarah Vance couldn't find a reason to arrest them when the entire population was cheering their names. She sent a tactical team to "escort" them to a government facility, but Thomas simply used a <b>Social-Hologram</b> to make it look like they were still on the pier while they were actually three blocks away, eating tacos at a local stand. "She's going to be so mad when she realizes she's talking to a projection of a taco," David said, his mouth full of carnitas.</p>
-                </div>
+        <div id="u2c1" class="chapter">
+            <h3>Chapter 6: The Needle and the Grain</h3>
+            <p><span class="first-letter">T</span>homas sat in the dark basement, a magnifying glass strapped to his eye and a high-voltage needle in his hand. He was manually etching a logic gate onto a silicon wafer, trying to recreate a Tier-2 processor from 2125 using 2026 stone-age tools. The air was perfectly still, any breath threatening to ruin hours of microscopic work. He was a god trying to write the laws of the future on a grain of sand, feeling the heavy, slow rotation of the 21st century pushing against his mind.</p>
+        </div>
 
-                <div id="u2c3" class="chapter">
-                    <h3>Chapter 6: The Jet-Set Scrappers</h3>
-                    <p><span class="first-letter">T</span>o celebrate their progress, Thomas decided it was time to upgrade their transportation from a van to something a bit more... 2125. In an abandoned hangar at the edge of the city, they spent forty-eight hours building the <b>Xeno-Jet</b>. It was a needle-shaped craft made of "Self-Healing Titanium" and powered by a <b>Zero-Point Engine</b> that produced no sound and no heat. It didn't fly by pushing air; it moved by "warping" the space in front of it, allowing them to travel from LA to Tokyo in under ten minutes. David sat in the co-pilot seat, which was made of a memory-foam that felt like floating on a cloud. "If my old scrapper buddies could see me now," David mused, looking out the window as the Earth blurred into a blue-and-white streak. "They’d think I was the pilot of a UFO."</p>
-                    <p>The fun truly began when the US Air Force tried to intercept the "unidentified flying object" over the Pacific. General Vance had authorized a high-speed chase, sending their most advanced stealth jets to bring the Xeno-Jet down. Thomas laughed, flicking a switch on the console. "Let’s give them a show, David. Activate <b>Phase-Camo: Cloud Mode</b>." To the pilots and radar systems, the Xeno-Jet instantly transformed into a massive, fluffy white cloud that moved at Mach 5. The jets tried to follow, but they found themselves flying through what felt like giant, harmless cotton candy. Thomas even programmed the jet to leave a trail of "Rainbow-Smoke" behind them, a colorful middle finger to the military-industrial complex that was trying to cage them. David was laughing so hard he could barely breathe. "We're literally a flying rainbow, Thomas! They can't shoot a rainbow!"</p>
-                </div>
-            </section>
-            <hr>
+        <div id="u2c2" class="chapter">
+            <h3>Chapter 7: The Data Raid</h3>
+            <p><span class="first-letter">T</span>hey needed a high-purity vacuum tube, and the only place to find one was in the secure lab of a local university. Thomas and David broke in through the ventilation shaft, moving like shadows through the dark, sterile hallways. Thomas bypassed the biometric locks using a pulse-generator he had built from a discarded car radio. They grabbed the tube and a canister of liquid nitrogen just as the silent alarms triggered. They escaped into the rain, the cold water washing the dust from their clothes as they held the soul of their new computer.</p>
+        </div>
 
-            <section id="unit3">
-                <span class="unit-label">Unit III: The Grand Finale</span>
-                <h2>Human Happiness</h2>
+        <div id="u2c3" class="chapter">
+            <h3>Chapter 8: The Quantum Etcher</h3>
+            <p><span class="first-letter">T</span>he machine Thomas built in the basement was a nightmare of copper wires, cooling pipes, and pulsing blue light. He called it the "Quantum Etcher," a device that didn't just calculate, but forced the silicon to obey 2125 logic. When it finally flickered to life, the temperature in the room dropped ten degrees, the air humming with a needle-sharp sound. David stepped back, his face pale as he watched the monitor display the satellites in orbit. They had successfully built a bridge between the digital past and the digital future.</p>
+        </div>
 
-                <div id="u3c1" class="chapter">
-                    <h3>Chapter 7: The Feast of the World</h3>
-                    <p><span class="first-letter">W</span>ith the atmosphere scrubbed and the energy grid providing infinite power, Thomas and David turned their attention to the final biological hurdle: the global food supply. In their private archipelago lab, they engineered the <b>Global Reclaimer Network</b>, a series of invisible, molecular-level "harvesters" that lived in the soil and water, capable of rearranging discarded carbon and nitrogen into high-density organic matter. Thomas spent weeks fine-tuning the "Flavor-Profiles," ensuring that the food produced wasn't just nutritious, but actually tasted better than anything a five-star chef could produce. David acted as the "Chief Taster," insisting that the Reclaimers be able to produce perfect, crispy fries and authentic Detroit-style pizza at the touch of a button. They didn't just build a machine to end hunger; they built a global buffet that operated on the principle of absolute abundance. Thomas marveled at how different this was from his first life; back then, every atom of food was a calculated survival move, but now, it was a celebration of creative excess.</p>
-                    <p>The rollout of the Reclaimers was a worldwide spectacle, with Thomas and David hosting a "Global Picnic" from their island base. They sent out millions of tiny, glowing "Seed-Pods" that landed in every city and village, instantly transforming local organic waste into fresh, gourmet meals for anyone who wanted them. David stood on the beach, watching the data-feeds as the "Hunger-Map" of the world turned from red to a satisfied, glowing green. "You know, Thomas," David said, biting into a Reclaimer-made taco that tasted like a summer afternoon in 2026. "I think the 21st century is finally catching up to you. We've got clean air, free lights, and now everyone’s eating like kings." Thomas looked at his own plate, realizing that by removing the scarcity of the Material Chain, they had removed the very reason for the wars and greed that had defined his old history books. They were turning the present into a masterpiece where the word "poor" was becoming a forgotten vocabulary word.</p>
-                </div>
+        <div id="u2c4" class="chapter">
+            <h3>Chapter 9: The Satellite Ghost</h3>
+            <p><span class="first-letter">U</span>sing the Quantum Etcher, Thomas reached out to the sky and hijacked a decommissioned military satellite. He didn't want to steal data; he used its high-resolution sensors to scan the Atlantic for the "Temporal Echo" of his arrival. He found a faint, pulsing ripple in the gravity-constant of the ocean, a sign that the Gate's door was still cracked open. But he also saw a second signal coming from a private compound in Florida. Someone else was looking at the cracks in time.</p>
+        </div>
 
-                <div id="u3c2" class="chapter">
-                    <h3>Chapter 8: The Thorne-y Trap</h3>
-                    <p><span class="first-letter">M</span>arcus Thorne, desperate to regain control over the world's economy, decided to launch one final, "old-school" heist. He gathered the last of his mercenary forces and Sarah Vance’s specialized tactical units for a midnight raid on the private archipelago, believing that if he could seize the "Master-Key" to the Reclaimer Network, he could hold the world’s food supply hostage. They arrived in high-tech, black-ops stealth boats, their faces painted with night-vision grease and their hands gripping the latest electromagnetic rifles. Thomas and David watched the entire approach from their "Beach-Cabana Command Center," sipping chilled coconut water while the Xeno-Jet’s AI highlighted the invaders in bright, comedic neon outlines on their screens. "They’re really going for the 'villainous infiltration' look, aren't they?" David asked, adjusting his sunglasses as the moon reflected off the water. Thomas chuckled, flicking a finger toward the "Defense" tab on his tablet, which was currently set to **Mode: Funhouse.**</p>
-                    <p>As the mercenaries hit the beach, the sand beneath their feet didn't just give way; it turned into a giant, bouncy-castle material that propelled them ten feet into the air with every step. Thorne’s elite soldiers found themselves bouncing uncontrollably across the shoreline, their heavy tactical boots squeaking like rubber ducks as they tried to maintain their balance. Sarah Vance tried to stabilize her team using her exoskeleton’s magnetic anchors, but Thomas had already inverted the polarity of the entire island. Instead of sticking to the ground, the exoskeleton began to attract every loose piece of scrap-metal on the beach, turning the General into a giant, clanking ball of old soda cans and discarded fishing lures. "You look like you're ready for a parade, Sarah!" David shouted through the island's high-decibel speakers. The "Steel Curtain" had become a "Steel Comedy," and the world’s most dangerous soldiers were now just a collection of confused gymnasts in a world of trampolines. Marcus Thorne finally made it to the lab doors, only to find that the "Master-Key" was actually just a glowing, 2125-style **Selfie-Station** that added bunny ears to his angry face.</p>
-                </div>
+        <div id="u2c5" class="chapter">
+            <h3>Chapter 10: The Digital Wall</h3>
+            <p><span class="first-letter">T</span>horne's cyber-security team detected the satellite breach and launched a retaliatory logic-strike against Thomas's basement computer. The monitor screen turned a violent red as the system was flooded with millions of fake data-packets. Thomas entered a direct neural-war with the corporate AI, typing code with a speed that bypassed human limits. He didn't delete the attack; he reflected it, sending the overload back to Thorne's servers and melting their primary hubs. The "Silicon Siege" was over, and the scrapper had won the first round in the air.</p>
+        </div>
+    </section>
 
-                <div id="u3c3" class="chapter">
-                    <h3>Chapter 9: The Ultimate Material</h3>
-                    <p><span class="first-letter">W</span>ith the villains safely distracted by gourmet catering, Thomas unveiled his final invention for the 2026 era: the <b>Joy-Node</b>. This wasn't a piece of hardware or a digital link; it was a biological enhancement to the Nano-Banana nanites that allowed humans to experience a 15% increase in their natural "Happiness-Resonance" without the need for artificial stimulants. It was the ultimate material—the synthesis of biology and contentment. Thomas and David spent the afternoon walking through the newly greened streets of Detroit, seeing the way people were interacting with each other. There was no more stress about the rent, no more fear of the smog, and no more hunger; people were finally free to spend their days painting, coding, playing Geometry Dash, and simply talking to their neighbors. Thomas felt the weight of his 2125 "Lead Architect" title completely dissolve, replaced by the simple, warm satisfaction of being a man who had finally fixed his own timeline.</p>
-                    <p>David looked at the bustling city, his eyes bright with a health that would now last for centuries. "We really did it, didn't we, Thomas? We turned the whole world into a 2125 paradise, but we kept the 2026 soul." Thomas nodded, watching a group of kids playing with a hover-ball they had built using a Xeno-Kit. He realized that by bringing the future back to the past, he hadn't just saved David; he had saved humanity from its own darker impulses. The "Steel to Sand" journey had taught him that the most important link in the Material Chain wasn't the Graphene or the Antimatter; it was the **Connection** between two friends who refused to give up on each other. They walked back to the old pizza parlor, which had been preserved as a museum of the "First Scrapper," and Thomas placed his manual hammer on the mantlepiece. It was no longer a tool of survival; it was a monument to the day the world changed for the better.</p>
-                </div>
+    <!-- UNIT III: THE CHEMICAL CATALYST -->
+    <section id="u3">
+        <span class="unit-label">Unit III: The Chemical Catalyst</span>
+        <h2>The Alchemy of Vengeance</h2>
 
-                <div id="u3c4" class="chapter">
-                    <h3>Chapter 10: The Circle of Steel and Smiles</h3>
-                    <p><span class="first-letter">T</span>he final year of the 21st century arrived with a global festival that lasted for a hundred days, a celebration of the era where humanity finally stopped fighting for atoms and started living for each other. Thomas Lefebvre, now a permanent resident of the year 2026, spent his time teaching a new generation of "Material Architects" how to build with the heart. He and David had officially retired from "saving the world" and spent most of their time on their private island, racing Xeno-Jets and trying to beat each other's high scores on the latest holographic games. The Chronos-Gate sat in the center of their living room, not as a doorway to escape, but as a beautiful, glowing piece of art that reminded them of the distance they had traveled. Thomas looked at his hands, which were young and strong, and then at David, who was currently trying to teach a repair-bot how to do a "high-five." The circle was finally closed, and the steel had found its final, joyful form in the sand of their home.</p>
-                    <p>On the last night of the story, Thomas and David sat on the beach, the orange glow of the portal reflecting in the gentle waves of the ocean. "Do you ever miss the Spire, Thomas?" David asked, looking up at the stars which were now clearer than they had been in a thousand years. Thomas shook his head, feeling the warmth of the sand between his toes. "The Spire was a tower built on the fear of the future, David. This world... this world is built on the love of the now. I don't need 2125 anymore. I have everything I ever wanted right here." He reached into his pocket and pulled out the old, jagged piece of 2026 copper he had kept for a century. He didn't put it in a reclaimer or use it for a sensor; he simply tossed it into the ocean, watching as it vanished into the blue. It was the final material he had to let go of—the last piece of his old, tragic self. Thomas closed his eyes, listening to the rhythm of the waves and the distant, happy sounds of a world that was finally at peace. He had built the materials, he had fought the wars, and he had survived the paradoxes. But as he drifted off to sleep under the 2026 stars, he realized the greatest invention he had ever made was the **Happy Ending** he was now living. The story was done, the chain was broken, and the sand was finally, beautifully, at rest.</p>
-                </div>
-            </section>
+        <div id="u3c1" class="chapter">
+            <h3>Chapter 11: The Acid Well</h3>
+            <p><span class="first-letter">T</span>o refine the rare metals needed for the jump, Thomas required industrial-grade acids that were no longer available on the open market. He and David traveled to an abandoned battery plant on the edge of the river, a place where the air was thick with the scent of sulfur and old plastic. Thomas lowered a bucket into the primary vat, harvesting the sludge that most people considered toxic waste. To him, it wasn't waste; it was the raw material for the jump. David stood guard at the rusted gates, his eyes fixed on the shadows moving in the nearby factory ruins.</p>
+        </div>
 
-                        <hr>
+        <div id="u3c2" class="chapter">
+            <h3>Chapter 12: Toxic Atmosphere</h3>
+            <p><span class="first-letter">A</span> leak in the primary cooling line filled the lab with a cloud of yellow chlorine gas. Thomas didn't run; he pulled David toward the emergency ventilation system, his hands moving with a frantic, mechanical speed. They had to hold their breath as they manually cranked the heavy iron levers, the metal groaning under the pressure. The air finally cleared, but both men were left coughing, their eyes red and burning. Thomas realized that the "Material Chain" was a ladder where the rungs were made of poison, and one mistake could end the odyssey before it truly began.</p>
+        </div>
 
-            <section id="unit3">
-                <span class="unit-label">Unit III: The Grand Finale</span>
-                <h2>Human Happiness</h2>
+        <div id="u3c3" class="chapter">
+            <h3>Chapter 13: The Catalyst Core</h3>
+            <p><span class="first-letter">T</span>homas successfully extracted a single gram of refined platinum from ten thousand old catalytic converters. He held the small, shimmering bead in his hand, feeling the immense weight of the work it had taken to create it. This was the "Catalyst Core," the piece that would allow his computer to speak to the atoms of the Dark Matter Gate. David watched from the corner of the room, his grease-stained face reflecting the silver light of the metal. They were no longer just scrappers; they were alchemists of the apocalypse, turning the ash of the 21st century into the gold of the 22nd.</p>
+        </div>
 
-                <div id="u3c1" class="chapter">
-                    <h3>Chapter 7: The Feast of the World</h3>
-                    <p><span class="first-letter">W</span>ith the atmosphere scrubbed and the energy grid providing infinite power, Thomas and David turned their attention to the final biological hurdle: the global food supply. In their private archipelago lab, they engineered the <b>Global Reclaimer Network</b>, a series of invisible, molecular-level "harvesters" that lived in the soil and water, capable of rearranging discarded carbon and nitrogen into high-density organic matter. Thomas spent weeks fine-tuning the "Flavor-Profiles," ensuring that the food produced wasn't just nutritious, but actually tasted better than anything a five-star chef could produce. David acted as the "Chief Taster," insisting that the Reclaimers be able to produce perfect, crispy fries and authentic Detroit-style pizza at the touch of a button. They didn't just build a machine to end hunger; they built a global buffet that operated on the principle of absolute abundance. Thomas marveled at how different this was from his first life; back then, every atom of food was a calculated survival move, but now, it was a celebration of creative excess.</p>
-                    <p>The rollout of the Reclaimers was a worldwide spectacle, with Thomas and David hosting a "Global Picnic" from their island base. They sent out millions of tiny, glowing "Seed-Pods" that landed in every city and village, instantly transforming local organic waste into fresh, gourmet meals for anyone who wanted them. David stood on the beach, watching the data-feeds as the "Hunger-Map" of the world turned from red to a satisfied, glowing green. "You know, Thomas," David said, biting into a Reclaimer-made taco that tasted like a summer afternoon in 2026. "I think the 21st century is finally catching up to you. We've got clean air, free lights, and now everyone’s eating like kings." Thomas looked at his own plate, realizing that by removing the scarcity of the Material Chain, they had removed the very reason for the wars and greed that had defined his old history books. They were turning the present into a masterpiece where the word "poor" was becoming a forgotten vocabulary word.</p>
-                </div>
+        <div id="u3c4" class="chapter">
+            <h3>Chapter 14: Transfusion Protocol</h3>
+            <p><span class="first-letter">D</span>avid’s lungs were failing from the chlorine exposure, his breath coming in ragged, wet gasps. Thomas knew he couldn't use modern medicine, so he initiated the "Transfusion Protocol"—using his own 2125-grade nanites to repair David's biological tissue. He connected their arms with a series of plastic tubes, watching as the glowing blue cells flowed from his veins into David's. It was an agonizing process that drained Thomas's own energy, but he didn't stop until David's breathing stabilized. The bond between the scrapper and the architect was no longer just a partnership; it was a biological fact.</p>
+        </div>
 
-                <div id="u3c2" class="chapter">
-                    <h3>Chapter 8: The Thorne-y Trap</h3>
-                    <p><span class="first-letter">M</span>arcus Thorne, desperate to regain control over the world's economy, decided to launch one final, "old-school" heist. He gathered the last of his mercenary forces and Sarah Vance’s specialized tactical units for a midnight raid on the private archipelago, believing that if he could seize the "Master-Key" to the Reclaimer Network, he could hold the world’s food supply hostage. They arrived in high-tech, black-ops stealth boats, their faces painted with night-vision grease and their hands gripping the latest electromagnetic rifles. Thomas and David watched the entire approach from their "Beach-Cabana Command Center," sipping chilled coconut water while the Xeno-Jet’s AI highlighted the invaders in bright, comedic neon outlines on their screens. "They’re really going for the 'villainous infiltration' look, aren't they?" David asked, adjusting his sunglasses as the moon reflected off the water. Thomas chuckled, flicking a finger toward the "Defense" tab on his tablet, which was currently set to **Mode: Funhouse.**</p>
-                    <p>As the mercenaries hit the beach, the sand beneath their feet didn't just give way; it turned into a giant, bouncy-castle material that propelled them ten feet into the air with every step. Thorne’s elite soldiers found themselves bouncing uncontrollably across the shoreline, their heavy tactical boots squeaking like rubber ducks as they tried to maintain their balance. Sarah Vance tried to stabilize her team using her exoskeleton’s magnetic anchors, but Thomas had already inverted the polarity of the entire island. Instead of sticking to the ground, the exoskeleton began to attract every loose piece of scrap-metal on the beach, turning the General into a giant, clanking ball of old soda cans and discarded fishing lures. "You look like you're ready for a parade, Sarah!" David shouted through the island's high-decibel speakers. The "Steel Curtain" had become a "Steel Comedy," and the world’s most dangerous soldiers were now just a collection of confused gymnasts in a world of trampolines. Marcus Thorne finally made it to the lab doors, only to find that the "Master-Key" was actually just a glowing, 2125-style **Selfie-Station** that added bunny ears to his angry face.</p>
-                </div>
+        <div id="u3c5" class="chapter">
+            <h3>Chapter 15: Molecular Separation</h3>
+            <p><span class="first-letter">T</span>he final chemical refinement was complete, leaving Thomas with a vial of pure, liquid Xenon. He used a molecular sieve to separate the isotopes, a process that required him to vibrate the glass container at a specific frequency for twelve hours straight. When the last atom settled, the vial pulsed with a soft, teal light that illuminated the dark lab. "This is the fuel, David," Thomas whispered, his voice trembling with exhaustion. They had conquered the "Chemical Catalyst," and the next link in the chain was waiting for them at the edge of the sky.</p>
+        </div>
+    </section>
 
-                <div id="u3c3" class="chapter">
-                    <h3>Chapter 9: The Ultimate Material</h3>
-                    <p><span class="first-letter">W</span>ith the villains safely distracted by gourmet catering, Thomas unveiled his final invention for the 2026 era: the <b>Joy-Node</b>. This wasn't a piece of hardware or a digital link; it was a biological enhancement to the Nano-Banana nanites that allowed humans to experience a 15% increase in their natural "Happiness-Resonance" without the need for artificial stimulants. It was the ultimate material—the synthesis of biology and contentment. Thomas and David spent the afternoon walking through the newly greened streets of Detroit, seeing the way people were interacting with each other. There was no more stress about the rent, no more fear of the smog, and no more hunger; people were finally free to spend their days painting, coding, playing Geometry Dash, and simply talking to their neighbors. Thomas felt the weight of his 2125 "Lead Architect" title completely dissolve, replaced by the simple, warm satisfaction of being a man who had finally fixed his own timeline.</p>
-                    <p>David looked at the bustling city, his eyes bright with a health that would now last for centuries. "We really did it, didn't we, Thomas? We turned the whole world into a 2125 paradise, but we kept the 2026 soul." Thomas nodded, watching a group of kids playing with a hover-ball they had built using a Xeno-Kit. He realized that by bringing the future back to the past, he hadn't just saved David; he had saved humanity from its own darker impulses. The "Steel to Sand" journey had taught him that the most important link in the Material Chain wasn't the Graphene or the Antimatter; it was the **Connection** between two friends who refused to give up on each other. They walked back to the old pizza parlor, which had been preserved as a museum of the "First Scrapper," and Thomas placed his manual hammer on the mantlepiece. It was no longer a tool of survival; it was a monument to the day the world changed for the better.</p>
-                </div>
+    <!-- UNIT IV: THE AEROSPACE HEIST -->
+    <section id="u4">
+        <span class="unit-label">Unit IV: The Aerospace Heist</span>
+        <h2>Stealing the Stars</h2>
 
-                <div id="u3c4" class="chapter">
-                    <h3>Chapter 10: The Circle of Steel and Smiles</h3>
-                    <p><span class="first-letter">T</span>he final year of the 21st century arrived with a global festival that lasted for a hundred days, a celebration of the era where humanity finally stopped fighting for atoms and started living for each other. Thomas Lefebvre, now a permanent resident of the year 2026, spent his time teaching a new generation of "Material Architects" how to build with the heart. He and David had officially retired from "saving the world" and spent most of their time on their private island, racing Xeno-Jets and trying to beat each other's high scores on the latest holographic games. The Chronos-Gate sat in the center of their living room, not as a doorway to escape, but as a beautiful, glowing piece of art that reminded them of the distance they had traveled. Thomas looked at his hands, which were young and strong, and then at David, who was currently trying to teach a repair-bot how to do a "high-five." The circle was finally closed, and the steel had found its final, joyful form in the sand of their home.</p>
-                    <p>On the last night of the story, Thomas and David sat on the beach, the orange glow of the portal reflecting in the gentle waves of the ocean. "Do you ever miss the Spire, Thomas?" David asked, looking up at the stars which were now clearer than they had been in a thousand years. Thomas shook his head, feeling the warmth of the sand between his toes. "The Spire was a tower built on the fear of the future, David. This world... this world is built on the love of the now. I don't need 2125 anymore. I have everything I ever wanted right here." He reached into his pocket and pulled out the old, jagged piece of 2026 copper he had kept for a century. He didn't put it in a reclaimer or use it for a sensor; he simply tossed it into the ocean, watching as it vanished into the blue. It was the final material he had to let go of—the last piece of his old, tragic self. Thomas closed his eyes, listening to the rhythm of the waves and the distant, happy sounds of a world that was finally at peace. He had built the materials, he had fought the wars, and he had survived the paradoxes. But as he drifted off to sleep under the 2026 stars, he realized the greatest invention he had ever made was the **Happy Ending** he was now living. The story was done, the chain was broken, and the sand was finally, beautifully, at rest.</p>
-                </div>
-            </section>
+        <div id="u4c1" class="chapter">
+            <h3>Chapter 16: The Cape Perimeter</h3>
+            <p><span class="first-letter">B</span>y 2030, the world was in a state of total technological collapse, but Cape Canaveral remained a fortress of the old guard. Thomas and David watched the perimeter from the Florida marshes, their skin caked in mud to hide their thermal signatures from the automated turrets. They needed the Alnico fuel tanks and the specialized heat shielding from the decommissioned shuttles. Thomas used his Nano-Lens to map the guard rotations, realizing that the "High-Tech" security was still using 21st-century logic that he could bypass with a flick of his wrist. They were ghosts in the tall grass, waiting for the moon to set.</p>
+        </div>
 
+        <div id="u4c2" class="chapter">
+            <h3>Chapter 17: Ares Ignition</h3>
+            <p><span class="first-letter">T</span>hey broke into Hangar 13 just as the countdown for the Ares-IV rocket began on the primary pad. The roar of the engines shook the ground, providing the perfect acoustic cover for David to blow the mag-locks on the storage crates. Thomas worked with a frantic speed, harvesting the Yttrium-Stabilized Zirconia from the shuttle's nose cone while the floor beneath him vibrated with the power of a million pounds of thrust. They weren't just stealing parts; they were stealing the legacy of human exploration to fuel their escape from a dying era. The fire of the rocket lit the room in a violent orange glow.</p>
+        </div>
+
+        <div id="u4c3" class="chapter">
+            <h3>Chapter 18: Exoskeleton Duel</h3>
+            <p><span class="first-letter">A</span>gent Sarah Vance intercepted them at the exit, her body encased in an experimental Mark-II Exoskeleton that hummed with a low growl. She didn't offer a deal; she opened fire with a localized kinetic pulse that shattered the concrete pillar next to Thomas's head. David swung his massive iron hammer, the metal clashing against the exoskeleton's reactive armor in a spray of sparks. Thomas didn't use a weapon; he used the Wrench to invert the gravity within the hangar's magnetic field, pinning Sarah to the ceiling. They ran for the getaway truck, the sound of the exoskeleton's joints screaming under the artificial load echoing behind them.</p>
+        </div>
+
+        <div id="u4c4" class="chapter">
+            <h3>Chapter 19: The Black Balloon</h3>
+            <p><span class="first-letter">T</span>hey reached sixty thousand feet using a Bio-Graphene Balloon launched from a stolen fishing trawler in the Gulf. The sky here was a deep, velvet black, and the air was too thin for human life without the pressurized gondola Thomas had built from scrap refrigerators. They deployed the harvest mesh, catching the rare isotopes raining down from the sun that couldn't reach the Earth's surface. David stared out at the curvature of the planet, his face lit by the first rays of a high-altitude sunrise. "It’s beautiful from up here, space-man," David whispered. Thomas watched the sensors, knowing the Material Chain had finally stretched beyond the reach of the gravity that had held them for five years.</p>
+        </div>
+
+        <div id="u4c5" class="chapter">
+            <h3>Chapter 20: Zero-Point Canister</h3>
+            <p><span class="first-letter">T</span>he Xenon was frozen to absolute zero and sealed inside a silver canister made of reclaimed Alnico. Thomas held the glowing vessel in his lap as the balloon descended back toward the Florida coast, the liquid metal heart of the machine pulsing against his chest. They had the Brain, the Blood, and the Bones; now they just needed the Spark. David steered the boat through the choppy night waters, his eyes fixed on the distant lights of Miami. They had survived the "Aerospace Heist," and the Material Chain was only one link away from the jump that would take them into the future.</p>
+        </div>
+    </section>
+
+    <!-- UNIT V: THE CARBON THRONE -->
+    <section id="u5">
+        <span class="unit-label">Unit V: The Carbon Throne</span>
+        <h2>The Architect's Zenith</h2>
+
+        <div id="u5c1" class="chapter">
+            <h3>Chapter 21: The Monolith Foundation</h3>
+            <p><span class="first-letter">B</span>y 2035, Thomas Lefebvre had built an empire from the mud. Xeno Industries rose from the ruins of Detroit like a shard of black glass, a monolithic tower that housed the world's most advanced research facility. He sat in his office at the summit, looking out over a city that was now powered by his own graphene-batteries and purified by his own air-scrubbers. He owned the patents to the future, but his heart was still in the scrapyard. David walked into the room, his boots tracking real mud onto the pristine white floor. "You’ve built a palace, Thomas. But the people in the basement are starting to look like Thorne’s employees."</p>
+        </div>
+
+        <div id="u5c2" class="chapter">
+            <h3>Chapter 22: Swarm Tactics</h3>
+            <p><span class="first-letter">T</span>horne launched his final attack, not with soldiers, but with a swarm of "Logic-Killers"—drones designed to erase the digital blueprints of Xeno Industries. Thomas didn't send a security team; he released the "Aero-Spiders," ten thousand micro-drones built from recycled soda cans and carbon-filaments. The spiders didn't explode; they simply landed on the enemy drones and vibrated at a frequency that turned their silicon brains into dust. It was a bloodless victory that proved the scrapper's tech was superior to the billionaire's money. Thomas watched the monitors, his face cold and robotic. He was winning the war for the planet, but he was losing the man he used to be.</p>
+        </div>
+
+        <div id="u5c3" class="chapter">
+            <h3>Chapter 23: The Bio-Reset</h3>
+            <p><span class="first-letter">T</span>homas's body was failing him, the years of chemical exposure and temporal strain catching up at last. He synthesized the Nano-Banana Pro, a shimmering silver fruit that held the key to a biological reset. He ate it in the silence of his lab, feeling the cold nanites flood his bloodstream and rewrite his DNA. His heart stopped for exactly ten seconds before surging back to life with the strength of a twenty-year-old. He stood up, his vision sharp and his muscles strong, but his eyes were filled with a century of weariness. He had cheated death, but the harvest had cost him the last of his humanity. He was now the Living Anchor of the Material Chain.</p>
+        </div>
+
+        <div id="u5c4" class="chapter">
+            <h3>Chapter 24: Phase Shift</h3>
+            <p><span class="first-letter">G</span>eneral Silas Graves arrived with a battalion to nationalize Xeno Industries, but Thomas simply adjusted the Phase-Shift of the building's structural supports. As the soldiers charged through the front doors, they found themselves passing through the walls as if they were made of smoke. Thomas had moved the entire facility five millimeters out of the physical dimension of 2035, rendering it untouchable by the 21st-century military. Graves looked at his own hands, which were now semi-transparent, and felt a terror that no weapon could provide. "You don't own the future, General," Thomas’s voice echoed from every wall. "You just live in the shadows I haven't cleared yet."</p>
+        </div>
+
+        <div id="u5c5" class="chapter">
+            <h3>Chapter 25: The Sealed Loop</h3>
+            <p><span class="first-letter">T</span>he Gate was finally complete, a pulsing ring of obsidian and starlight sitting in the center of the Detroit monolith. Thomas and David stood before the machine, the Singularity Wrench glowing with a rainbow light that contained every color of their journey. They had forged the "Material Chain" from the mud to the stars, and now it was time to close the loop. David gripped his manual wrench, looking at the portal with a mixture of fear and pride. "Ready for the big jump, space-man?" David asked. Thomas stepped into the light, his atoms finally aligning with the frequency of home. The "Restoration" was complete, and the "Dyson Era" was waiting on the other side. The circle was closed.</p>
+        </div>
+    </section>
+</div>
             <div style="text-align: center; margin: 60px 0;">
                 <a href="https://wa.me!" 
                    target="_blank"
