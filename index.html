@@ -93,11 +93,25 @@
         .overlay-content a:hover { color: var(--accent); padding-left: 10px; }
 
         /* --- CONTENT WRAPPER --- */
-        main {
-            padding: 100px 20px 40px 20px;
-            max-width: 850px;
-            margin: 0 auto;
-        }
+        /* THE SAGA STANDARD: DEAD-CENTERING */
+main {
+    display: block !important;
+    max-width: 800px !important; /* Forces the exact phone/column width */
+    width: 100% !important;
+    margin: 0 auto !important; /* Dead centers the block on your monitor */
+    padding: 120px 20px 100px 20px !important; /* Identical gap at the top and bottom */
+    background-color: var(--bg);
+    min-height: 100vh;
+    box-sizing: border-box !important; /* Prevents padding from adding to the width */
+}
+
+/* FORCES ALL INTERNAL SECTIONS TO STAY WITHIN THE 800PX BOX */
+section, .content-wrap, .chapter {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+}
 
         .unit-label { color: var(--accent); text-transform: uppercase; letter-spacing: 8px; font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 10px; }
         h2 { font-size: 3rem; color: var(--white); margin: 0 0 60px 0; font-family: sans-serif; }
@@ -290,5 +304,9 @@
             label.innerText = current;
         };
     </script>
+    <!-- PLACED OUTSIDE MAIN FOR PIXEL ACCURACY -->
+<a href="https://thomaslefebvre-abandehlvi.github.io/Steel-from-sand-library/" class="fixed-hub-btn">
+   📚 SAGA HUB
+</a>
 </body>
 </html>
